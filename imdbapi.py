@@ -63,4 +63,5 @@ for genre in genreList:
         else:
             musicgenreList.append(genr)
 
+print("Music Genres:")
 print(musicgenreList)
