@@ -14,6 +14,7 @@ credentials = oauth2.SpotifyClientCredentials(
 token = credentials.get_access_token(as_dict=False)
 spotify = spotipy.Spotify(auth=token)
 
+print ("Good Morning")
 
 
 #list of all the music genres we have 
